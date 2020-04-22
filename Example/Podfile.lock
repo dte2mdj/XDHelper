@@ -1,7 +1,5 @@
 PODS:
-  - XDHelper (0.1.0):
-    - XDHelper/XDNameSpace (= 0.1.0)
-  - XDHelper/XDNameSpace (0.1.0)
+  - XDHelper (0.1.0)
 
 DEPENDENCIES:
   - XDHelper (from `../`)
@@ -11,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XDHelper: 9e3678b51335b31d51b5c222ddc1d891ba066c0b
+  XDHelper: c53f8e612606c423a46b640de09625647f243f14
 
 PODFILE CHECKSUM: 20004a09d361d14adcecf8996a2c8bd25d81590e
 

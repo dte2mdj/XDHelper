@@ -56,7 +56,6 @@ public extension Xd where Target == UIImage {
     ///   - fillSize: 填充大小
     ///   - contentMode: 填充模式
     ///   - backgroundColor: 背景色
-    @discardableResult
     func resize(_ fillSize: CGSize, contentMode: UIView.ContentMode, backgroundColor: UIColor = .clear) -> UIImage? {
 
         let inRect = getInRect(target.size, fillSize: fillSize, contentMode: contentMode)

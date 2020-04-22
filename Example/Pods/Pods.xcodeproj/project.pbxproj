@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0DA6907B6C772D756DBD05333EDCAEBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		17DCA7E4842E41B897716DA06DF86C53 /* Xd+Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758CF2E808FD460ABE99F13164275EFA /* Xd+Value.swift */; };
-		261975A1D60C1A6F153560218499CE82 /* Xd+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253E7F215C599423706D77E882EFBC1 /* Xd+String.swift */; };
+		0F807B600D9EC83446B516AA2F371D03 /* XDHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E01FAA258AF6CEBC882FE3E2CBF1F /* XDHelper-dummy.m */; };
+		10F6292173C3740B45BC63CDB7D53A18 /* Xd+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61300F6CE415954CBBBD300407D045E /* Xd+Dictionary.swift */; };
+		121828AEB2B6AB1E4941BF56E601CF44 /* Xd+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E230518700A4B6BD0790AE972756285 /* Xd+String.swift */; };
 		2F260372AE28F604FC6B1897CF1F1929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4C3E648A1029CA80D547FED4146A2F31 /* XDHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0B2207B663F913D449CF5754AE28C0 /* XDHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5820FC6F69B890A5FE0916EB7FEA4231 /* Xd+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330FCE49CABAEC7EA59140AC7CBB9188 /* Xd+UIImage.swift */; };
-		5CBA719D7989F47DFAAF6AB1FCFC885B /* XD+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0A4E9DEC318DB85303359F4928C600 /* XD+Dictionary.swift */; };
+		5488A26EC75AD9601F9FA7B2FEFBE6DB /* Xd+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AF354F7EE9D88CD823A299E098DE10 /* Xd+UIColor.swift */; };
+		5EC59F54A76388F10A041EB54DE15185 /* Xd+Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839BA31E7B3453F71526D6F227B5D24 /* Xd+Value.swift */; };
 		686E11E6DD70E639473B2726338CD3BA /* Pods-XDHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2502C102711FE576709CDD109131D00F /* Pods-XDHelper_Tests-dummy.m */; };
-		7827180DF80644122A759245E7E0B8A0 /* Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800E63BEBC771FF24BE88C002B3BFA9 /* Xd.swift */; };
-		797CBEBE87E59E19B3231AE0F86CEB2F /* Xd+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891206ECCFCA50AF16AED820432CEEF /* Xd+UIColor.swift */; };
-		94E3850905ACEFEF56E55C87C2C8A78D /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA58E14D422DF201950A18C9B9707F0 /* Function.swift */; };
+		76648DBB8EB6AF26BC46F24499C2F9AD /* Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034B265CB07287F3C3BB12F9CB4FFB2 /* Xd.swift */; };
 		97ED132719C169DE011FBF4E409C59BF /* Pods-XDHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6869358DA0A753460C3E79C8C3984C1F /* Pods-XDHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F12A8078E7A1B1589C2A8EFB8CF3BA6 /* XDHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E01FAA258AF6CEBC882FE3E2CBF1F /* XDHelper-dummy.m */; };
-		A3E516F5F596193BF7D21A0AAC9380CC /* Xd+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D579593413502722BB3280FC402A39 /* Xd+Array.swift */; };
-		AA057D5E77A59B3DA62C4724E4F39AEA /* Xd+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355627C539CDCE52F4E137260DB3CF9F /* Xd+UIView.swift */; };
+		98CF80FDD1700DA10A5DC61E20332753 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA58E14D422DF201950A18C9B9707F0 /* Function.swift */; };
 		AD4EEC0547EF6A1A0DBDA8DA956DF6E5 /* Pods-XDHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DADD2FD3732497CF3D262DD719C5F94C /* Pods-XDHelper_Example-dummy.m */; };
-		CFC1BFF936C8FE46F9FBBB4D337B5B87 /* TextInputSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B132073C5457A9C9A4914CFB56700 /* TextInputSpliter.swift */; };
+		C09DD823674D1ECD1D0A0566CDD60ACB /* Xd+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0801A11CFA17711EAD6D5206C4C3123 /* Xd+UIImage.swift */; };
+		CCA5D96A779A5ED74F521645B561A007 /* TextInputSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B132073C5457A9C9A4914CFB56700 /* TextInputSpliter.swift */; };
+		DC447C2833AF275D75E168F905F278EC /* Xd+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D90461B3184F0D2B0C0838C50E2166 /* Xd+Array.swift */; };
+		DDC4691193E5D539B12BFA0E1AE2764B /* Xd+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919B692FBF8F61F51371AFD8457F48C6 /* Xd+UIView.swift */; };
 		E05E487FFB94A8B09B24968B9D51F476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F37EE43FAB5FC4AAF9205CF71F110084 /* Pods-XDHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB01377CE77387DCFFF9EE15D326DAF /* Pods-XDHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -46,33 +46,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03D90461B3184F0D2B0C0838C50E2166 /* Xd+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+Array.swift"; sourceTree = "<group>"; };
+		12AF354F7EE9D88CD823A299E098DE10 /* Xd+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+UIColor.swift"; sourceTree = "<group>"; };
 		170E01FAA258AF6CEBC882FE3E2CBF1F /* XDHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDHelper-dummy.m"; sourceTree = "<group>"; };
+		1839BA31E7B3453F71526D6F227B5D24 /* Xd+Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+Value.swift"; sourceTree = "<group>"; };
 		2502C102711FE576709CDD109131D00F /* Pods-XDHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		2BB01377CE77387DCFFF9EE15D326DAF /* Pods-XDHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		2C0B2207B663F913D449CF5754AE28C0 /* XDHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDHelper-umbrella.h"; sourceTree = "<group>"; };
 		30A66BE492A8F43F4A81F43C1C6D36FA /* Pods-XDHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		330FCE49CABAEC7EA59140AC7CBB9188 /* Xd+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+UIImage.swift"; sourceTree = "<group>"; };
-		355627C539CDCE52F4E137260DB3CF9F /* Xd+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+UIView.swift"; sourceTree = "<group>"; };
 		410B132073C5457A9C9A4914CFB56700 /* TextInputSpliter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInputSpliter.swift; path = XDHelper/Classes/TextInputSpliter.swift; sourceTree = "<group>"; };
 		43F1608C4883B2CDB3178C80B8814C95 /* Pods-XDHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4A94ACB39D5E1341762A3B13DA3A632D /* XDHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDHelper.modulemap; sourceTree = "<group>"; };
+		4E230518700A4B6BD0790AE972756285 /* Xd+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+String.swift"; sourceTree = "<group>"; };
 		4ED07E7CA280BB84316AB31EB7600653 /* Pods-XDHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDHelper_Example-Info.plist"; sourceTree = "<group>"; };
-		5891206ECCFCA50AF16AED820432CEEF /* Xd+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+UIColor.swift"; sourceTree = "<group>"; };
 		5AA58E14D422DF201950A18C9B9707F0 /* Function.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Function.swift; path = XDHelper/Classes/Function.swift; sourceTree = "<group>"; };
 		60645ADEDD852D297C65FB710F948A5D /* Pods_XDHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDHelper_Example.framework; path = "Pods-XDHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE1D044377B47F3306742C4F3EB797 /* XDHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XDHelper.framework; path = XDHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6589164D696ADA0DF74E355DC8E8C3E5 /* XDHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDHelper.release.xcconfig; sourceTree = "<group>"; };
 		6869358DA0A753460C3E79C8C3984C1F /* Pods-XDHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7253E7F215C599423706D77E882EFBC1 /* Xd+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+String.swift"; sourceTree = "<group>"; };
 		754FDB472E8816AB0B03E8723891E5A2 /* Pods-XDHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDHelper_Example.modulemap"; sourceTree = "<group>"; };
-		758CF2E808FD460ABE99F13164275EFA /* Xd+Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+Value.swift"; sourceTree = "<group>"; };
 		76F91DB67108144852F4910B4AE2E083 /* XDHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDHelper-prefix.pch"; sourceTree = "<group>"; };
-		7E0A4E9DEC318DB85303359F4928C600 /* XD+Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "XD+Dictionary.swift"; sourceTree = "<group>"; };
 		85CD4E97CB0304C27DD7E60BB06E8B97 /* Pods-XDHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		865644E1CB498E9EE2A621BD28B8E55C /* Pods-XDHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8680AC9798091ED4A127091A5830850B /* Pods_XDHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDHelper_Tests.framework; path = "Pods-XDHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		871622670FF3BBC8E4A443423B9448D1 /* XDHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XDHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9034B265CB07287F3C3BB12F9CB4FFB2 /* Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Xd.swift; sourceTree = "<group>"; };
+		919B692FBF8F61F51371AFD8457F48C6 /* Xd+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+UIView.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FFAABAD0B72C9799D32EA7998754FED /* Pods-XDHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		A1B43BA26598D5D83BA53FA155DB0A49 /* XDHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDHelper.debug.xcconfig; sourceTree = "<group>"; };
@@ -81,13 +81,13 @@
 		B6DF6E558666D2E513DEEC6911015288 /* Pods-XDHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C2AE72FE2ACBD901D67CD7176099CD1E /* XDHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XDHelper-Info.plist"; sourceTree = "<group>"; };
 		C4827213128F58191636F9F2FB8460ED /* Pods-XDHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDHelper_Tests-Info.plist"; sourceTree = "<group>"; };
-		C800E63BEBC771FF24BE88C002B3BFA9 /* Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Xd.swift; sourceTree = "<group>"; };
 		CEBD413D1B167640F9DBF0C568FBBB41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DADD2FD3732497CF3D262DD719C5F94C /* Pods-XDHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDHelper_Example-dummy.m"; sourceTree = "<group>"; };
-		E2D579593413502722BB3280FC402A39 /* Xd+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+Array.swift"; sourceTree = "<group>"; };
 		E525BA45149AA41D80EA36A38D9DAB86 /* Pods-XDHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E977AD9256609AAD9358FA8218DDF55C /* Pods-XDHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA00BD694F632FB5AE58876612329E33 /* Pods-XDHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0801A11CFA17711EAD6D5206C4C3123 /* Xd+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+UIImage.swift"; sourceTree = "<group>"; };
+		F61300F6CE415954CBBBD300407D045E /* Xd+Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+Dictionary.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +118,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A85B1562D31FE2BF5998482B87EB5C /* XDNameSpace */ = {
+			isa = PBXGroup;
+			children = (
+				9034B265CB07287F3C3BB12F9CB4FFB2 /* Xd.swift */,
+				03D90461B3184F0D2B0C0838C50E2166 /* Xd+Array.swift */,
+				F61300F6CE415954CBBBD300407D045E /* Xd+Dictionary.swift */,
+				4E230518700A4B6BD0790AE972756285 /* Xd+String.swift */,
+				12AF354F7EE9D88CD823A299E098DE10 /* Xd+UIColor.swift */,
+				F0801A11CFA17711EAD6D5206C4C3123 /* Xd+UIImage.swift */,
+				919B692FBF8F61F51371AFD8457F48C6 /* Xd+UIView.swift */,
+				1839BA31E7B3453F71526D6F227B5D24 /* Xd+Value.swift */,
+			);
+			name = XDNameSpace;
+			path = XDHelper/Classes/XDNameSpace;
+			sourceTree = "<group>";
+		};
 		061479FEE73413FAF44E1F0740DF482B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,22 +147,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XDHelper";
-			sourceTree = "<group>";
-		};
-		2E9CCFF5FC0B64B1F28E7F299332E990 /* XDNameSpace */ = {
-			isa = PBXGroup;
-			children = (
-				C800E63BEBC771FF24BE88C002B3BFA9 /* Xd.swift */,
-				E2D579593413502722BB3280FC402A39 /* Xd+Array.swift */,
-				7E0A4E9DEC318DB85303359F4928C600 /* XD+Dictionary.swift */,
-				7253E7F215C599423706D77E882EFBC1 /* Xd+String.swift */,
-				5891206ECCFCA50AF16AED820432CEEF /* Xd+UIColor.swift */,
-				330FCE49CABAEC7EA59140AC7CBB9188 /* Xd+UIImage.swift */,
-				355627C539CDCE52F4E137260DB3CF9F /* Xd+UIView.swift */,
-				758CF2E808FD460ABE99F13164275EFA /* Xd+Value.swift */,
-			);
-			name = XDNameSpace;
-			path = XDHelper/Classes/XDNameSpace;
 			sourceTree = "<group>";
 		};
 		340E50875DA27E2F19218846F7988191 /* Development Pods */ = {
@@ -210,7 +210,7 @@
 				410B132073C5457A9C9A4914CFB56700 /* TextInputSpliter.swift */,
 				C8BE56989BECC4A9D77202F078156889 /* Pod */,
 				061479FEE73413FAF44E1F0740DF482B /* Support Files */,
-				2E9CCFF5FC0B64B1F28E7F299332E990 /* XDNameSpace */,
+				01A85B1562D31FE2BF5998482B87EB5C /* XDNameSpace */,
 			);
 			name = XDHelper;
 			path = ../..;
@@ -294,7 +294,7 @@
 			buildConfigurationList = CCAB770DC46046CFF27BE96B6B216E5D /* Build configuration list for PBXNativeTarget "XDHelper" */;
 			buildPhases = (
 				A5BB7C41E54AF2913482C04ADF5565D4 /* Headers */,
-				1B4BB27472598F3E2007B53ABE575E3B /* Sources */,
+				AEC378BE0D43F3393EC5C13134DA2E44 /* Sources */,
 				ED1AB9C39658AC856F7DD836B354B674 /* Frameworks */,
 				9B2D790881F78A286D0BB253AEBD2B41 /* Resources */,
 			);
@@ -399,24 +399,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B4BB27472598F3E2007B53ABE575E3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94E3850905ACEFEF56E55C87C2C8A78D /* Function.swift in Sources */,
-				CFC1BFF936C8FE46F9FBBB4D337B5B87 /* TextInputSpliter.swift in Sources */,
-				A3E516F5F596193BF7D21A0AAC9380CC /* Xd+Array.swift in Sources */,
-				5CBA719D7989F47DFAAF6AB1FCFC885B /* XD+Dictionary.swift in Sources */,
-				261975A1D60C1A6F153560218499CE82 /* Xd+String.swift in Sources */,
-				797CBEBE87E59E19B3231AE0F86CEB2F /* Xd+UIColor.swift in Sources */,
-				5820FC6F69B890A5FE0916EB7FEA4231 /* Xd+UIImage.swift in Sources */,
-				AA057D5E77A59B3DA62C4724E4F39AEA /* Xd+UIView.swift in Sources */,
-				17DCA7E4842E41B897716DA06DF86C53 /* Xd+Value.swift in Sources */,
-				7827180DF80644122A759245E7E0B8A0 /* Xd.swift in Sources */,
-				9F12A8078E7A1B1589C2A8EFB8CF3BA6 /* XDHelper-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6037C8F0ACAD7A79C1CADB662CF7258C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,6 +412,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				686E11E6DD70E639473B2726338CD3BA /* Pods-XDHelper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC378BE0D43F3393EC5C13134DA2E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CF80FDD1700DA10A5DC61E20332753 /* Function.swift in Sources */,
+				CCA5D96A779A5ED74F521645B561A007 /* TextInputSpliter.swift in Sources */,
+				DC447C2833AF275D75E168F905F278EC /* Xd+Array.swift in Sources */,
+				10F6292173C3740B45BC63CDB7D53A18 /* Xd+Dictionary.swift in Sources */,
+				121828AEB2B6AB1E4941BF56E601CF44 /* Xd+String.swift in Sources */,
+				5488A26EC75AD9601F9FA7B2FEFBE6DB /* Xd+UIColor.swift in Sources */,
+				C09DD823674D1ECD1D0A0566CDD60ACB /* Xd+UIImage.swift in Sources */,
+				DDC4691193E5D539B12BFA0E1AE2764B /* Xd+UIView.swift in Sources */,
+				5EC59F54A76388F10A041EB54DE15185 /* Xd+Value.swift in Sources */,
+				76648DBB8EB6AF26BC46F24499C2F9AD /* Xd.swift in Sources */,
+				0F807B600D9EC83446B516AA2F371D03 /* XDHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

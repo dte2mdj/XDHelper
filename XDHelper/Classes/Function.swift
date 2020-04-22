@@ -12,7 +12,7 @@ import Foundation
 ///   - size: 初始大小
 ///   - fillSize: 最终大小
 ///   - contentModel: UIView.ContentMode
-func getInRect(_ size: CGSize, fillSize: CGSize, contentMode: UIView.ContentMode) -> CGRect {
+public func getInRect(_ size: CGSize, fillSize: CGSize, contentMode: UIView.ContentMode) -> CGRect {
     
     guard size.width > 0 && size.height > 0 else { return CGRect(origin: .zero, size: fillSize) }
     

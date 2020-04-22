@@ -20,11 +20,5 @@
   },
   "swift_versions": "5.0",
   "source_files": "XDHelper/Classes/**/*",
-  "subspecs": [
-    {
-      "name": "XDNameSpace",
-      "source_files": "XDHelper/Classes/XDNameSpace/*"
-    }
-  ],
   "swift_version": "5.0"
 }
