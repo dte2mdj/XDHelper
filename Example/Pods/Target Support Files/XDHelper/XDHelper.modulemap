@@ -1,0 +1,6 @@
+framework module XDHelper {
+  umbrella header "XDHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

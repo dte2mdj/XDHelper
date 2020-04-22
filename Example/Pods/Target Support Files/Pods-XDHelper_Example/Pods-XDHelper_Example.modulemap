@@ -1,0 +1,6 @@
+framework module Pods_XDHelper_Example {
+  umbrella header "Pods-XDHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
