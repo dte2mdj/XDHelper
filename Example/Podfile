@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XDHelper_Example' do
+  pod 'XDHelper', :path => '../'
+
+  target 'XDHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
