@@ -10,7 +10,7 @@ import Foundation
 // MARK: UIColor
 extension UIColor: XDWrappable {}
 
-public extension Xd where Target == UIColor {
+public extension Xd where Target: UIColor {
     
     /// 将16进制色值->Rgba
     ///

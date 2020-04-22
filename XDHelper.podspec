@@ -34,6 +34,10 @@ TODO: Add long description of the pod here.
   
   s.source_files = 'XDHelper/Classes/**/*'
   
+  s.subspec 'XDNameSpace' do |ss|
+      ss.source_files = 'XDHelper/Classes/XDNameSpace/*'
+  end
+  
   # s.resource_bundles = {
   #   'XDHelper' => ['XDHelper/Assets/*.png']
   # }

@@ -14,6 +14,8 @@ import Foundation
 ///   - contentModel: UIView.ContentMode
 func getInRect(_ size: CGSize, fillSize: CGSize, contentMode: UIView.ContentMode) -> CGRect {
     
+    guard size.width > 0 && size.height > 0 else { return CGRect(origin: .zero, size: fillSize) }
+    
     let width = size.width
     let height = size.height
     let fillWidth = fillSize.width

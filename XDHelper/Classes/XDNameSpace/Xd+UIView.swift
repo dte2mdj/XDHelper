@@ -10,7 +10,7 @@ import Foundation
 // MARK: UIView
 extension UIView: XDWrappable {}
 
-public extension Xd where Target == UIView {
+public extension Xd where Target: UIView {
     /// 在当前屏幕的 frame
     var frameInScreen: CGRect {
         /// 先判断是否有父视图，如果没有父视图，直接返回视图的位置就行
@@ -39,6 +39,63 @@ public extension Xd where Target == UIView {
         }
         
         return CGRect(origin: pointInScreen, size: target.frame.size)
+    }
+}
+
+public extension Xd where Target: UIView {
+    var origin: CGPoint {
+        get { target.frame.origin }
+        set { target.frame.origin = newValue }
+    }
+    
+    var x: CGFloat {
+        get { origin.x }
+        set { origin = CGPoint(x: newValue, y: y) }
+    }
+    
+    var y: CGFloat {
+        get { origin.y }
+        set { origin = CGPoint(x: x, y: newValue) }
+    }
+    
+    var size: CGSize {
+        get { target.frame.size }
+        set { target.frame.size = newValue }
+    }
+    
+    var width: CGFloat {
+        get { size.width }
+        set { size = CGSize(width: newValue, height: height) }
+    }
+    
+    var height: CGFloat {
+        get { size.height }
+        set { size = CGSize(width: width, height: newValue) }
+    }
+    
+    var halfWidth: CGFloat {
+        get { width / 2 }
+        set { width = newValue * 2 }
+    }
+    
+    var halfHeight: CGFloat {
+        get { height / 2 }
+        set { height = newValue * 2 }
+    }
+    
+    var center: CGPoint {
+        get { target.center }
+        set { target.center = newValue }
+    }
+    
+    var centerX: CGFloat {
+        get { center.x }
+        set { center = CGPoint(x: newValue, y: centerY) }
+    }
+    
+    var centerY: CGFloat {
+        get { center.y }
+        set { center = CGPoint(x: centerX, y: newValue) }
     }
 }
 

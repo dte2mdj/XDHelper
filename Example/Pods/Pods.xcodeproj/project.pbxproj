@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0DA6907B6C772D756DBD05333EDCAEBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		17DCA7E4842E41B897716DA06DF86C53 /* Xd+Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758CF2E808FD460ABE99F13164275EFA /* Xd+Value.swift */; };
+		261975A1D60C1A6F153560218499CE82 /* Xd+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253E7F215C599423706D77E882EFBC1 /* Xd+String.swift */; };
 		2F260372AE28F604FC6B1897CF1F1929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		350826F9469A818E9B5E12F30D653246 /* TextInputSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4EE0EC695C7922175C2488B8FF6EBC /* TextInputSpliter.swift */; };
-		4C3E648A1029CA80D547FED4146A2F31 /* XDHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A325A3BDAD895C724F6AF132633A9FF2 /* XDHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C3E648A1029CA80D547FED4146A2F31 /* XDHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0B2207B663F913D449CF5754AE28C0 /* XDHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5820FC6F69B890A5FE0916EB7FEA4231 /* Xd+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330FCE49CABAEC7EA59140AC7CBB9188 /* Xd+UIImage.swift */; };
+		5CBA719D7989F47DFAAF6AB1FCFC885B /* XD+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0A4E9DEC318DB85303359F4928C600 /* XD+Dictionary.swift */; };
 		686E11E6DD70E639473B2726338CD3BA /* Pods-XDHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2502C102711FE576709CDD109131D00F /* Pods-XDHelper_Tests-dummy.m */; };
-		89DF94FE973185D01988D8CC6FFDE816 /* UIImage+Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5956F740D08FA3A2A0E7ED0D0EB17 /* UIImage+Xd.swift */; };
+		7827180DF80644122A759245E7E0B8A0 /* Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800E63BEBC771FF24BE88C002B3BFA9 /* Xd.swift */; };
+		797CBEBE87E59E19B3231AE0F86CEB2F /* Xd+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891206ECCFCA50AF16AED820432CEEF /* Xd+UIColor.swift */; };
+		94E3850905ACEFEF56E55C87C2C8A78D /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA58E14D422DF201950A18C9B9707F0 /* Function.swift */; };
 		97ED132719C169DE011FBF4E409C59BF /* Pods-XDHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6869358DA0A753460C3E79C8C3984C1F /* Pods-XDHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A22797BBA9234234B608343D1103D701 /* Value+Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616747729D6F7375F9D33D460960EEEC /* Value+Xd.swift */; };
-		AC5956B7760B32362828009F299053D0 /* String+Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = A225665A6F39B4220196236509E2B6D2 /* String+Xd.swift */; };
+		9F12A8078E7A1B1589C2A8EFB8CF3BA6 /* XDHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E01FAA258AF6CEBC882FE3E2CBF1F /* XDHelper-dummy.m */; };
+		A3E516F5F596193BF7D21A0AAC9380CC /* Xd+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D579593413502722BB3280FC402A39 /* Xd+Array.swift */; };
+		AA057D5E77A59B3DA62C4724E4F39AEA /* Xd+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355627C539CDCE52F4E137260DB3CF9F /* Xd+UIView.swift */; };
 		AD4EEC0547EF6A1A0DBDA8DA956DF6E5 /* Pods-XDHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DADD2FD3732497CF3D262DD719C5F94C /* Pods-XDHelper_Example-dummy.m */; };
-		C2F8460785EB47477324751183764A89 /* UIColor+Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6587E2D0D762674D8AA62E8E2BF0FD /* UIColor+Xd.swift */; };
-		DC085721915B68B19D1128D94C3DD41D /* UIView+Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1CE237F4A4C4538D42A3F3AA7A935 /* UIView+Xd.swift */; };
-		DD1B193B50F3C88BFAB6EF4E14BBFA64 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8142F84D198BA70BEF39C3F2C9D9CBCD /* Function.swift */; };
-		DF25830434658F3782EACB36013C11F6 /* Dictionary+Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DF7DB60C5B38DCA74B9EF2C2084F94 /* Dictionary+Xd.swift */; };
+		CFC1BFF936C8FE46F9FBBB4D337B5B87 /* TextInputSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B132073C5457A9C9A4914CFB56700 /* TextInputSpliter.swift */; };
 		E05E487FFB94A8B09B24968B9D51F476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EEF859F274491110293AB14AFD49F7C2 /* Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210BEF7BA92ED55A76558F57F08459C /* Xd.swift */; };
 		F37EE43FAB5FC4AAF9205CF71F110084 /* Pods-XDHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB01377CE77387DCFFF9EE15D326DAF /* Pods-XDHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6AAAF42DDB8BBD405E5EE8895B49C83 /* XDHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E636DB6C19AD0E239EF543D0BF3CEF16 /* XDHelper-dummy.m */; };
-		FE984A8F6261995ED673CC435A21D9EB /* Array+Xd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD8A9B1060A54FF450D9078D6861D0F /* Array+Xd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,48 +46,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06C1CE237F4A4C4538D42A3F3AA7A935 /* UIView+Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Xd.swift"; path = "XDHelper/Classes/UIView+Xd.swift"; sourceTree = "<group>"; };
-		143326E6E81D24D9ABE2E9F450997FA8 /* XDHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XDHelper-Info.plist"; sourceTree = "<group>"; };
-		15E5289EF2B53390C0A2709203A9FA60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		170E01FAA258AF6CEBC882FE3E2CBF1F /* XDHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDHelper-dummy.m"; sourceTree = "<group>"; };
 		2502C102711FE576709CDD109131D00F /* Pods-XDHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		2BB01377CE77387DCFFF9EE15D326DAF /* Pods-XDHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDHelper_Example-umbrella.h"; sourceTree = "<group>"; };
-		2DD8A9B1060A54FF450D9078D6861D0F /* Array+Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Xd.swift"; path = "XDHelper/Classes/Array+Xd.swift"; sourceTree = "<group>"; };
-		2EDF595DF42D51FFB287F45308288304 /* XDHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDHelper.release.xcconfig; sourceTree = "<group>"; };
+		2C0B2207B663F913D449CF5754AE28C0 /* XDHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDHelper-umbrella.h"; sourceTree = "<group>"; };
 		30A66BE492A8F43F4A81F43C1C6D36FA /* Pods-XDHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		330FCE49CABAEC7EA59140AC7CBB9188 /* Xd+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+UIImage.swift"; sourceTree = "<group>"; };
+		355627C539CDCE52F4E137260DB3CF9F /* Xd+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+UIView.swift"; sourceTree = "<group>"; };
+		410B132073C5457A9C9A4914CFB56700 /* TextInputSpliter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInputSpliter.swift; path = XDHelper/Classes/TextInputSpliter.swift; sourceTree = "<group>"; };
 		43F1608C4883B2CDB3178C80B8814C95 /* Pods-XDHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43F401ABBA4F112F9739C5488FDAB652 /* XDHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDHelper.debug.xcconfig; sourceTree = "<group>"; };
-		47A5956F740D08FA3A2A0E7ED0D0EB17 /* UIImage+Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Xd.swift"; path = "XDHelper/Classes/UIImage+Xd.swift"; sourceTree = "<group>"; };
-		4B6587E2D0D762674D8AA62E8E2BF0FD /* UIColor+Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Xd.swift"; path = "XDHelper/Classes/UIColor+Xd.swift"; sourceTree = "<group>"; };
+		4A94ACB39D5E1341762A3B13DA3A632D /* XDHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDHelper.modulemap; sourceTree = "<group>"; };
 		4ED07E7CA280BB84316AB31EB7600653 /* Pods-XDHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDHelper_Example-Info.plist"; sourceTree = "<group>"; };
-		51BCE861BF1C628CD650CF2A1B9395D5 /* XDHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDHelper.modulemap; sourceTree = "<group>"; };
+		5891206ECCFCA50AF16AED820432CEEF /* Xd+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+UIColor.swift"; sourceTree = "<group>"; };
+		5AA58E14D422DF201950A18C9B9707F0 /* Function.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Function.swift; path = XDHelper/Classes/Function.swift; sourceTree = "<group>"; };
 		60645ADEDD852D297C65FB710F948A5D /* Pods_XDHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDHelper_Example.framework; path = "Pods-XDHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		616747729D6F7375F9D33D460960EEEC /* Value+Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Value+Xd.swift"; path = "XDHelper/Classes/Value+Xd.swift"; sourceTree = "<group>"; };
 		62DE1D044377B47F3306742C4F3EB797 /* XDHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XDHelper.framework; path = XDHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6589164D696ADA0DF74E355DC8E8C3E5 /* XDHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDHelper.release.xcconfig; sourceTree = "<group>"; };
 		6869358DA0A753460C3E79C8C3984C1F /* Pods-XDHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7253E7F215C599423706D77E882EFBC1 /* Xd+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+String.swift"; sourceTree = "<group>"; };
 		754FDB472E8816AB0B03E8723891E5A2 /* Pods-XDHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDHelper_Example.modulemap"; sourceTree = "<group>"; };
-		8142F84D198BA70BEF39C3F2C9D9CBCD /* Function.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Function.swift; path = XDHelper/Classes/Function.swift; sourceTree = "<group>"; };
+		758CF2E808FD460ABE99F13164275EFA /* Xd+Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+Value.swift"; sourceTree = "<group>"; };
+		76F91DB67108144852F4910B4AE2E083 /* XDHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDHelper-prefix.pch"; sourceTree = "<group>"; };
+		7E0A4E9DEC318DB85303359F4928C600 /* XD+Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "XD+Dictionary.swift"; sourceTree = "<group>"; };
 		85CD4E97CB0304C27DD7E60BB06E8B97 /* Pods-XDHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		865644E1CB498E9EE2A621BD28B8E55C /* Pods-XDHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8680AC9798091ED4A127091A5830850B /* Pods_XDHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDHelper_Tests.framework; path = "Pods-XDHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89D1BBD1734D95902D8CB308DB1EE27F /* XDHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XDHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		871622670FF3BBC8E4A443423B9448D1 /* XDHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XDHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FFAABAD0B72C9799D32EA7998754FED /* Pods-XDHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDHelper_Tests.modulemap"; sourceTree = "<group>"; };
-		A225665A6F39B4220196236509E2B6D2 /* String+Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Xd.swift"; path = "XDHelper/Classes/String+Xd.swift"; sourceTree = "<group>"; };
-		A325A3BDAD895C724F6AF132633A9FF2 /* XDHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDHelper-umbrella.h"; sourceTree = "<group>"; };
-		B2A6C829F68CE5D7427C17FD832F5479 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A1B43BA26598D5D83BA53FA155DB0A49 /* XDHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDHelper.debug.xcconfig; sourceTree = "<group>"; };
+		AA6FE765F44761EA3474682FE6937E7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B51DDC14A4C2B3CA774FD7B2A84AD85B /* Pods-XDHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6DF6E558666D2E513DEEC6911015288 /* Pods-XDHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2AE72FE2ACBD901D67CD7176099CD1E /* XDHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XDHelper-Info.plist"; sourceTree = "<group>"; };
 		C4827213128F58191636F9F2FB8460ED /* Pods-XDHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDHelper_Tests-Info.plist"; sourceTree = "<group>"; };
+		C800E63BEBC771FF24BE88C002B3BFA9 /* Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Xd.swift; sourceTree = "<group>"; };
+		CEBD413D1B167640F9DBF0C568FBBB41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DADD2FD3732497CF3D262DD719C5F94C /* Pods-XDHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDHelper_Example-dummy.m"; sourceTree = "<group>"; };
-		E210BEF7BA92ED55A76558F57F08459C /* Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Xd.swift; path = XDHelper/Classes/Xd.swift; sourceTree = "<group>"; };
+		E2D579593413502722BB3280FC402A39 /* Xd+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xd+Array.swift"; sourceTree = "<group>"; };
 		E525BA45149AA41D80EA36A38D9DAB86 /* Pods-XDHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E636DB6C19AD0E239EF543D0BF3CEF16 /* XDHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDHelper-dummy.m"; sourceTree = "<group>"; };
 		E977AD9256609AAD9358FA8218DDF55C /* Pods-XDHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA00BD694F632FB5AE58876612329E33 /* Pods-XDHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F1DF7DB60C5B38DCA74B9EF2C2084F94 /* Dictionary+Xd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Xd.swift"; path = "XDHelper/Classes/Dictionary+Xd.swift"; sourceTree = "<group>"; };
-		F8B36508BA3CBBFA27DC7A3F8290F4B1 /* XDHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDHelper-prefix.pch"; sourceTree = "<group>"; };
-		FD4EE0EC695C7922175C2488B8FF6EBC /* TextInputSpliter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInputSpliter.swift; path = XDHelper/Classes/TextInputSpliter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,47 +118,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0131826175DE076DB32F3559A4680B5E /* Development Pods */ = {
+		061479FEE73413FAF44E1F0740DF482B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				472B97E545A8E85C27700673FFF0DB97 /* XDHelper */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		472B97E545A8E85C27700673FFF0DB97 /* XDHelper */ = {
-			isa = PBXGroup;
-			children = (
-				2DD8A9B1060A54FF450D9078D6861D0F /* Array+Xd.swift */,
-				F1DF7DB60C5B38DCA74B9EF2C2084F94 /* Dictionary+Xd.swift */,
-				8142F84D198BA70BEF39C3F2C9D9CBCD /* Function.swift */,
-				A225665A6F39B4220196236509E2B6D2 /* String+Xd.swift */,
-				FD4EE0EC695C7922175C2488B8FF6EBC /* TextInputSpliter.swift */,
-				4B6587E2D0D762674D8AA62E8E2BF0FD /* UIColor+Xd.swift */,
-				47A5956F740D08FA3A2A0E7ED0D0EB17 /* UIImage+Xd.swift */,
-				06C1CE237F4A4C4538D42A3F3AA7A935 /* UIView+Xd.swift */,
-				616747729D6F7375F9D33D460960EEEC /* Value+Xd.swift */,
-				E210BEF7BA92ED55A76558F57F08459C /* Xd.swift */,
-				E5AB28C13FFAE519D8A7DC58FBC4F234 /* Pod */,
-				BFBBD4709A599324D042B443FD75D963 /* Support Files */,
-			);
-			name = XDHelper;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BFBBD4709A599324D042B443FD75D963 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				51BCE861BF1C628CD650CF2A1B9395D5 /* XDHelper.modulemap */,
-				E636DB6C19AD0E239EF543D0BF3CEF16 /* XDHelper-dummy.m */,
-				143326E6E81D24D9ABE2E9F450997FA8 /* XDHelper-Info.plist */,
-				F8B36508BA3CBBFA27DC7A3F8290F4B1 /* XDHelper-prefix.pch */,
-				A325A3BDAD895C724F6AF132633A9FF2 /* XDHelper-umbrella.h */,
-				43F401ABBA4F112F9739C5488FDAB652 /* XDHelper.debug.xcconfig */,
-				2EDF595DF42D51FFB287F45308288304 /* XDHelper.release.xcconfig */,
+				4A94ACB39D5E1341762A3B13DA3A632D /* XDHelper.modulemap */,
+				170E01FAA258AF6CEBC882FE3E2CBF1F /* XDHelper-dummy.m */,
+				C2AE72FE2ACBD901D67CD7176099CD1E /* XDHelper-Info.plist */,
+				76F91DB67108144852F4910B4AE2E083 /* XDHelper-prefix.pch */,
+				2C0B2207B663F913D449CF5754AE28C0 /* XDHelper-umbrella.h */,
+				A1B43BA26598D5D83BA53FA155DB0A49 /* XDHelper.debug.xcconfig */,
+				6589164D696ADA0DF74E355DC8E8C3E5 /* XDHelper.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XDHelper";
+			sourceTree = "<group>";
+		};
+		2E9CCFF5FC0B64B1F28E7F299332E990 /* XDNameSpace */ = {
+			isa = PBXGroup;
+			children = (
+				C800E63BEBC771FF24BE88C002B3BFA9 /* Xd.swift */,
+				E2D579593413502722BB3280FC402A39 /* Xd+Array.swift */,
+				7E0A4E9DEC318DB85303359F4928C600 /* XD+Dictionary.swift */,
+				7253E7F215C599423706D77E882EFBC1 /* Xd+String.swift */,
+				5891206ECCFCA50AF16AED820432CEEF /* Xd+UIColor.swift */,
+				330FCE49CABAEC7EA59140AC7CBB9188 /* Xd+UIImage.swift */,
+				355627C539CDCE52F4E137260DB3CF9F /* Xd+UIView.swift */,
+				758CF2E808FD460ABE99F13164275EFA /* Xd+Value.swift */,
+			);
+			name = XDNameSpace;
+			path = XDHelper/Classes/XDNameSpace;
+			sourceTree = "<group>";
+		};
+		340E50875DA27E2F19218846F7988191 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E32C2948B8180C15D79A4C9CA3689A8E /* XDHelper */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -178,11 +174,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		C8BE56989BECC4A9D77202F078156889 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD413D1B167640F9DBF0C568FBBB41 /* LICENSE */,
+				AA6FE765F44761EA3474682FE6937E7F /* README.md */,
+				871622670FF3BBC8E4A443423B9448D1 /* XDHelper.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0131826175DE076DB32F3559A4680B5E /* Development Pods */,
+				340E50875DA27E2F19218846F7988191 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				FD27A805E7A92761563FB442DAF8D6D4 /* Products */,
 				C215F529CA56E05A2D710BC0A781EB8C /* Targets Support Files */,
@@ -195,6 +201,19 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E32C2948B8180C15D79A4C9CA3689A8E /* XDHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5AA58E14D422DF201950A18C9B9707F0 /* Function.swift */,
+				410B132073C5457A9C9A4914CFB56700 /* TextInputSpliter.swift */,
+				C8BE56989BECC4A9D77202F078156889 /* Pod */,
+				061479FEE73413FAF44E1F0740DF482B /* Support Files */,
+				2E9CCFF5FC0B64B1F28E7F299332E990 /* XDNameSpace */,
+			);
+			name = XDHelper;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E57D19CE88F6D73665110D844987DE06 /* Pods-XDHelper_Example */ = {
@@ -212,16 +231,6 @@
 			);
 			name = "Pods-XDHelper_Example";
 			path = "Target Support Files/Pods-XDHelper_Example";
-			sourceTree = "<group>";
-		};
-		E5AB28C13FFAE519D8A7DC58FBC4F234 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				15E5289EF2B53390C0A2709203A9FA60 /* LICENSE */,
-				B2A6C829F68CE5D7427C17FD832F5479 /* README.md */,
-				89D1BBD1734D95902D8CB308DB1EE27F /* XDHelper.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		F1FA9E3D10726D81EFA992B30216B1E1 /* Pods-XDHelper_Tests */ = {
@@ -285,7 +294,7 @@
 			buildConfigurationList = CCAB770DC46046CFF27BE96B6B216E5D /* Build configuration list for PBXNativeTarget "XDHelper" */;
 			buildPhases = (
 				A5BB7C41E54AF2913482C04ADF5565D4 /* Headers */,
-				8713E147FE666EDC8732367110887F14 /* Sources */,
+				1B4BB27472598F3E2007B53ABE575E3B /* Sources */,
 				ED1AB9C39658AC856F7DD836B354B674 /* Frameworks */,
 				9B2D790881F78A286D0BB253AEBD2B41 /* Resources */,
 			);
@@ -390,6 +399,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B4BB27472598F3E2007B53ABE575E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E3850905ACEFEF56E55C87C2C8A78D /* Function.swift in Sources */,
+				CFC1BFF936C8FE46F9FBBB4D337B5B87 /* TextInputSpliter.swift in Sources */,
+				A3E516F5F596193BF7D21A0AAC9380CC /* Xd+Array.swift in Sources */,
+				5CBA719D7989F47DFAAF6AB1FCFC885B /* XD+Dictionary.swift in Sources */,
+				261975A1D60C1A6F153560218499CE82 /* Xd+String.swift in Sources */,
+				797CBEBE87E59E19B3231AE0F86CEB2F /* Xd+UIColor.swift in Sources */,
+				5820FC6F69B890A5FE0916EB7FEA4231 /* Xd+UIImage.swift in Sources */,
+				AA057D5E77A59B3DA62C4724E4F39AEA /* Xd+UIView.swift in Sources */,
+				17DCA7E4842E41B897716DA06DF86C53 /* Xd+Value.swift in Sources */,
+				7827180DF80644122A759245E7E0B8A0 /* Xd.swift in Sources */,
+				9F12A8078E7A1B1589C2A8EFB8CF3BA6 /* XDHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6037C8F0ACAD7A79C1CADB662CF7258C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -403,24 +430,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				686E11E6DD70E639473B2726338CD3BA /* Pods-XDHelper_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8713E147FE666EDC8732367110887F14 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE984A8F6261995ED673CC435A21D9EB /* Array+Xd.swift in Sources */,
-				DF25830434658F3782EACB36013C11F6 /* Dictionary+Xd.swift in Sources */,
-				DD1B193B50F3C88BFAB6EF4E14BBFA64 /* Function.swift in Sources */,
-				AC5956B7760B32362828009F299053D0 /* String+Xd.swift in Sources */,
-				350826F9469A818E9B5E12F30D653246 /* TextInputSpliter.swift in Sources */,
-				C2F8460785EB47477324751183764A89 /* UIColor+Xd.swift in Sources */,
-				89DF94FE973185D01988D8CC6FFDE816 /* UIImage+Xd.swift in Sources */,
-				DC085721915B68B19D1128D94C3DD41D /* UIView+Xd.swift in Sources */,
-				A22797BBA9234234B608343D1103D701 /* Value+Xd.swift in Sources */,
-				EEF859F274491110293AB14AFD49F7C2 /* Xd.swift in Sources */,
-				F6AAAF42DDB8BBD405E5EE8895B49C83 /* XDHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +453,7 @@
 /* Begin XCBuildConfiguration section */
 		30586E4597ECF54C7D5F714A6B65F7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43F401ABBA4F112F9739C5488FDAB652 /* XDHelper.debug.xcconfig */;
+			baseConfigurationReference = A1B43BA26598D5D83BA53FA155DB0A49 /* XDHelper.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -473,9 +482,9 @@
 			};
 			name = Debug;
 		};
-		4DB9CA6679D40BBAD5CE825224CEAFA6 /* Release */ = {
+		37DB28214434FBA81291A40817B83A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43F1608C4883B2CDB3178C80B8814C95 /* Pods-XDHelper_Example.release.xcconfig */;
+			baseConfigurationReference = B51DDC14A4C2B3CA774FD7B2A84AD85B /* Pods-XDHelper_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -487,12 +496,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XDHelper_Example/Pods-XDHelper_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDHelper_Tests/Pods-XDHelper_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XDHelper_Example/Pods-XDHelper_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-XDHelper_Tests/Pods-XDHelper_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -501,13 +510,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -555,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -567,40 +575,7 @@
 			};
 			name = Release;
 		};
-		B29916F8F54714F644B8A89448B22FFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B51DDC14A4C2B3CA774FD7B2A84AD85B /* Pods-XDHelper_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XDHelper_Tests/Pods-XDHelper_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XDHelper_Tests/Pods-XDHelper_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -651,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -664,9 +639,43 @@
 			};
 			name = Debug;
 		};
+		981F5E5E52A069B87686F77560B6323C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F1608C4883B2CDB3178C80B8814C95 /* Pods-XDHelper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDHelper_Example/Pods-XDHelper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XDHelper_Example/Pods-XDHelper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C5B7732ED878B1156DC1E7BEBBF95950 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EDF595DF42D51FFB287F45308288304 /* XDHelper.release.xcconfig */;
+			baseConfigurationReference = 6589164D696ADA0DF74E355DC8E8C3E5 /* XDHelper.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -696,7 +705,7 @@
 			};
 			name = Release;
 		};
-		E90BD87722F0A183EA5F989296FDFE2D /* Debug */ = {
+		F494AC1C8C9E48093E2C5F54EC480374 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30A66BE492A8F43F4A81F43C1C6D36FA /* Pods-XDHelper_Example.debug.xcconfig */;
 			buildSettings = {
@@ -712,7 +721,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-XDHelper_Example/Pods-XDHelper_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XDHelper_Example/Pods-XDHelper_Example.modulemap";
@@ -729,7 +738,7 @@
 			};
 			name = Debug;
 		};
-		F0161E2B5B0571DBEE89546AA3E11CCC /* Release */ = {
+		F92F764DE167E9ADEB92420B6A1E0864 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 865644E1CB498E9EE2A621BD28B8E55C /* Pods-XDHelper_Tests.release.xcconfig */;
 			buildSettings = {
@@ -745,7 +754,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-XDHelper_Tests/Pods-XDHelper_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XDHelper_Tests/Pods-XDHelper_Tests.modulemap";
@@ -769,8 +778,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -778,8 +787,8 @@
 		ADE5D0CE49B5DF5EAB5897C8FAD9BBC3 /* Build configuration list for PBXNativeTarget "Pods-XDHelper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E90BD87722F0A183EA5F989296FDFE2D /* Debug */,
-				4DB9CA6679D40BBAD5CE825224CEAFA6 /* Release */,
+				F494AC1C8C9E48093E2C5F54EC480374 /* Debug */,
+				981F5E5E52A069B87686F77560B6323C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -796,8 +805,8 @@
 		EDC96FAA93A1314F260497099D0A5B49 /* Build configuration list for PBXNativeTarget "Pods-XDHelper_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B29916F8F54714F644B8A89448B22FFE /* Debug */,
-				F0161E2B5B0571DBEE89546AA3E11CCC /* Release */,
+				37DB28214434FBA81291A40817B83A19 /* Debug */,
+				F92F764DE167E9ADEB92420B6A1E0864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

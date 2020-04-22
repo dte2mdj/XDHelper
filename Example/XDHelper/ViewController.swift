@@ -28,13 +28,13 @@ class ViewController: UIViewController {
         spliter.testValidBlock = { $0.xd.isMatching("\\d*") }
         return spliter
     }()
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        testTextInputPhone()
-        testTextInputBankAccount()
+   
+        testImage()
     }
     
     
@@ -58,6 +58,22 @@ extension ViewController {
         tf.backgroundColor = .cyan
         tf.delegate = bankAccountSpliter
         view.addSubview(tf)
+    }
+    
+    func testImage() {
+        
+        let img = UIImage().xd.resize(CGSize(width: 180, height: 80), contentMode: .center, backgroundColor: .blue)
+        
+        let imgView = UIImageView()
+        imgView.frame = CGRect(origin: CGPoint(x: 100, y: 100), size: img!.size)
+        imgView.contentMode = .center
+        imgView.backgroundColor = .red
+        imgView.image = img
+        
+        print(imgView.xd.frameInScreen)
+        
+        view.addSubview(imgView)
+        
     }
 }
 
