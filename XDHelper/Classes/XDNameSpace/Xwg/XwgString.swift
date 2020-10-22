@@ -1,16 +1,8 @@
-//
-//  Xd+String.swift
-//  Pods-XDHelper_Example
-//
-//  Created by Xwg on 2020/3/12.
-//
 
 import UIKit
 
-// MARK: String
-extension String: XDWrappable {}
-
-public extension Xd where Target == String {
+// MARK: - 扩展实现
+public extension Xwg where Target == String {
     
     /// 转换成 [String: Any]?
     /// - Parameter options: JSONSerialization.ReadingOptions
@@ -29,3 +21,6 @@ public extension Xd where Target == String {
         return NSPredicate(format: "SELF MATCHES %@", regex).evaluate(with: target)
     }
 }
+
+// MARK: - Xwg 扩展
+extension String: XwgWrappable {}
