@@ -22,7 +22,6 @@ extension UInt64: XDWrappable {}
 // MARK: BinaryFloatingPoint
 extension CGFloat: XDWrappable {}
 extension Float: XDWrappable {}
-extension Float80: XDWrappable {}
 extension Double: XDWrappable {}
 
 public extension Xd where Target: FixedWidthInteger {
