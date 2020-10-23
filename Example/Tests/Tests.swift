@@ -13,16 +13,34 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
+//    func testExample() {
+//        // This is an example of a functional test case.
+//        XCTAssert(true, "Pass")
+//    }
+//
+//    func testPerformanceExample() {
+//        // This is an example of a performance test case.
+//        self.measure() {
+//            // Put the code you want to measure the time of here.
+//        }
+//    }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
+    func testXwgNamespaceExample() {
+        do {
+            let c = Character("🦐")
+            print("\(c): \(c.xwg.isEmoji)")
+        }
+        do {
+            let str = "1234567890"
+            print("\(str): \(str.xwg.isMatching("\\d*"))")
+        }
+        do {
+            let info: [String: Any] = [
+                "name": "xwg",
+                "sex": "男",
+                "age": 18
+            ]
+            print(info.xwg.toJSONString() ?? "转换失败")
         }
     }
-    
 }

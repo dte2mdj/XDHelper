@@ -66,5 +66,3 @@ public extension Xwg where Target == Character {
     }
 }
 
-// MARK: - Xwg 扩展
-extension Character: XwgWrappable {}

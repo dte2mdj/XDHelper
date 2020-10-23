@@ -78,6 +78,3 @@ public extension Xwg where Target == Date {
         Calendar.current.date(byAdding: component, value: value, to: target)
     }
 }
-
-// MARK: - XwgDate 扩展
-extension Date: XwgWrappable {}

@@ -21,6 +21,3 @@ public extension Xwg where Target == String {
         return NSPredicate(format: "SELF MATCHES %@", regex).evaluate(with: target)
     }
 }
-
-// MARK: - Xwg 扩展
-extension String: XwgWrappable {}
