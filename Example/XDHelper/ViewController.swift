@@ -11,6 +11,9 @@ import XDHelper
 
 class ViewController: UIViewController {
     
+    @UserDefaultsWrapper("is_login", default: false)
+    var isLogin: Bool
+    
     lazy var phoneSpliter: TextInputSpliter = {
         let spliter = TextInputSpliter()
         spliter.separator = "-"
@@ -33,15 +36,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let emoji = """
-        😀😁😂😃😄😅😆😉😊😋😎😍😘😗😙😚☺😇😐😑😶😏😣😥😮😯😪😫😴😌😛😜
-        😝😒😓😔😕😲😷😖😞😟😤😢😭😦😧😨😬😰😱😳😵😡😠
-        """
-        for c in emoji where c != "\n" {
-            print("\(c): \(c.xwg.isEmoji)")
+        if isLogin {
+            isLogin = false
+            print("退出登录。。。")
+        } else {
+            isLogin = true
+            print("登录。。。")
         }
     }
-    
     
 }
 

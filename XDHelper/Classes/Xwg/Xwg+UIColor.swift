@@ -73,7 +73,7 @@ public extension Xwg where Target: UIColor {
     
 }
 
-public extension Xd where Target == UIColor {
+public extension Xwg where Target == UIColor {
     
     /// 获取红色
     var red: CGFloat {
