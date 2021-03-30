@@ -1,3 +1,10 @@
+//
+//  Xwg+Dictionary.swift
+//  XwgHelper
+//
+//  Created by Xwg on 2021/3/30.
+//
+
 import Foundation
 
 // MARK: - 扩展实现

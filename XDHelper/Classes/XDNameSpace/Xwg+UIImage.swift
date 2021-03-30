@@ -1,17 +1,16 @@
 //
-//  Xd+UIImage.swift
-//  Pods-XDHelper_Example
+//  Xwg+UIImage.swift
+//  XwgHelper
 //
-//  Created by Xwg on 2020/3/12.
+//  Created by Xwg on 2021/3/30.
 //
 
 import Foundation
-import UIKit
 
 // MARK: UIImage
-extension UIImage: XDWrappable {}
+extension UIImage: XwgWrappable {}
 
-public extension Xd where Target == UIImage {
+public extension Xwg where Target == UIImage {
     /// base64字符串规则:  data:image/图片类型;base64,图片数据 如： data:image/png;base64,iVBORw...
     /// - Parameter string: Base64 字符串
     /// - Parameter scale: 默认1  0自动根据 UIScreen.main.scale 生成

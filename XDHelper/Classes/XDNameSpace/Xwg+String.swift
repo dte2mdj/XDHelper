@@ -1,5 +1,13 @@
+//
+//  Xwg+String.swift
+//  XwgHelper
+//
+//  Created by Xwg on 2021/3/30.
+//
 
 import UIKit
+
+extension String: XwgWrappable {}
 
 // MARK: - 扩展实现
 public extension Xwg where Target == String {

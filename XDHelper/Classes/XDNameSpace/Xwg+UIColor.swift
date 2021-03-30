@@ -1,16 +1,16 @@
 //
-//  Xd+UIColor.swift
-//  Pods-XDHelper_Example
+//  Xwg+UIColor.swift
+//  XwgHelper
 //
-//  Created by Xwg on 2020/3/12.
+//  Created by Xwg on 2021/3/30.
 //
 
 import Foundation
 
 // MARK: UIColor
-extension UIColor: XDWrappable {}
+extension UIColor: XwgWrappable {}
 
-public extension Xd where Target: UIColor {
+public extension Xwg where Target: UIColor {
     
     /// 将16进制色值->Rgba
     ///

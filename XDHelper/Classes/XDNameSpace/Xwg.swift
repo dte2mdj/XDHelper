@@ -1,3 +1,10 @@
+//
+//  Xwg.swift
+//  XwgHelper
+//
+//  Created by Xwg on 2021/3/30.
+//
+
 import Foundation
 
 // MARK: - 扩展协议
@@ -63,7 +70,4 @@ extension Dictionary: XwgWrappable {
         return XwgDictionary<Key, Value>(self)
     }
 }
-extension Character: XwgWrappable {}
-extension String: XwgWrappable {}
-extension Date: XwgWrappable {}
 

@@ -1,16 +1,14 @@
 //
-//  XElementName+Array.swift
-//  Pods-XDHelper_Example
+//  Xwg+Array.swift
+//  XwgHelper
 //
-//  Created by Xwg on 2020/3/12.
+//  Created by Xwg on 2021/3/30.
 //
 
 import Foundation
 
-// MARK: Array
-extension Array: XDArrayWrappable {}
-
-public extension XDArray where Target == Array<Element>, Element: Equatable {
+// MARK: - 实现
+public extension XwgArray where Element: Equatable {
     /// 去重：Return array with all duplicate elements removed.
     ///
     ///     [1, 1, 2, 2, 3, 3, 3, 4, 5].removeDuplicates() -> [1, 2, 3, 4, 5])
@@ -25,3 +23,4 @@ public extension XDArray where Target == Array<Element>, Element: Equatable {
         }
     }
 }
+

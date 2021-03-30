@@ -1,13 +1,21 @@
+//
+//  Xwg+Character.swift
+//  XwgHelper
+//
+//  Created by Xwg on 2021/3/30.
+//
 
 import Foundation
+
+extension Character: XwgWrappable {}
 
 // MARK: - 扩展实现
 // MARK: - Properties
 public extension Xwg where Target == Character {
     
-    /// SwifterSwift: Check if character is emoji.
+    /// Check if character is emoji.
     ///
-    ///        Character("😀").isEmoji -> true
+    ///     Character("😀").isEmoji -> true
     ///
     var isEmoji: Bool {
         // http://stackoverflow.com/questions/30757193/find-out-if-character-in-string-is-emoji
@@ -32,10 +40,10 @@ public extension Xwg where Target == Character {
         }
     }
     
-    /// SwifterSwift: Integer from character (if applicable).
+    /// Integer from character (if applicable).
     ///
-    ///        Character("1").int -> 1
-    ///        Character("A").int -> nil
+    ///     Character("1").int -> 1
+    ///     Character("A").int -> nil
     ///
     var int: Int? {
         return Int(String(target))
@@ -49,17 +57,17 @@ public extension Xwg where Target == Character {
         return String(target)
     }
     
-    /// SwifterSwift: Return the character lowercased.
+    /// Return the character lowercased.
     ///
-    ///        Character("A").lowercased -> Character("a")
+    ///     Character("A").lowercased -> Character("a")
     ///
     var lowercased: Character {
         return String(target).lowercased().first!
     }
     
-    /// SwifterSwift: Return the character uppercased.
+    /// Return the character uppercased.
     ///
-    ///        Character("a").uppercased -> Character("A")
+    ///     Character("a").uppercased -> Character("A")
     ///
     var uppercased: Character {
         return String(target).uppercased().first!
